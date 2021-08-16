@@ -152,3 +152,14 @@ h3{
     padding:2.5rem 1rem;
     color:var(--dark-blue);
 }
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
